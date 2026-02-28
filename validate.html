@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validar Key - MK5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">🔐 Validar Key</h1>
+
+    <div class="card">
+      <h2>Inserir Key</h2>
+
+      <input type="text" id="keyToValidate" placeholder="Cole sua key aqui..." style="width:100%;padding:12px;border-radius:8px;border:none;background:#0c0c12;color:white;margin-top:10px;">
+
+      <button id="validateBtn">Validar Key</button>
+
+      <div id="resultBox" style="margin-top:20px;text-align:center;"></div>
+
+      <a href="index.html" class="link-btn">⬅ Voltar</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="validate.js"></script>
+</body>
+</html>

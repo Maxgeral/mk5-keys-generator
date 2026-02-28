@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - MK5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">👤 MK5 Login</h1>
+
+    <div class="card">
+      <h2>Entrar ou Criar Conta</h2>
+
+      <input type="email" id="email" placeholder="Seu email"
+        style="width:100%;padding:12px;border-radius:8px;border:none;background:#0c0c12;color:white;margin-top:10px;">
+
+      <input type="password" id="password" placeholder="Sua senha"
+        style="width:100%;padding:12px;border-radius:8px;border:none;background:#0c0c12;color:white;margin-top:10px;">
+
+      <button id="loginBtn">🔑 Entrar</button>
+      <button id="registerBtn">📝 Criar Conta</button>
+      <button id="logoutBtn">🚪 Sair</button>
+
+      <p id="loginStatus" style="text-align:center;margin-top:15px;"></p>
+
+      <a href="index.html" class="link-btn">⬅ Voltar</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="login.js"></script>
+</body>
+</html>

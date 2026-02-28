@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Admin - MK5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">🛠 MK5 Admin Panel</h1>
+
+    <div class="card">
+      <h2>Adicionar Novo Link</h2>
+
+      <input type="text" id="linkTitle" placeholder="Nome do Conteúdo"
+        style="width:100%;padding:12px;border-radius:8px;border:none;background:#0c0c12;color:white;margin-top:10px;">
+
+      <input type="text" id="linkURL" placeholder="URL do Conteúdo"
+        style="width:100%;padding:12px;border-radius:8px;border:none;background:#0c0c12;color:white;margin-top:10px;">
+
+      <button id="addLinkBtn">➕ Adicionar Link</button>
+
+      <h2 style="margin-top:25px;">📂 Links Disponíveis</h2>
+      <div id="linksList"></div>
+
+      <a href="index.html" class="link-btn">⬅ Voltar</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

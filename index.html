@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK5 Keys Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">⚡ MK5 Keys Generator</h1>
+
+    <div class="card">
+      <h2>Gerar Key</h2>
+      <p id="status">Status: Verificando...</p>
+
+      <button id="generateKeyBtn">🔑 Gerar Key</button>
+
+      <div class="key-box">
+        <input type="text" id="generatedKey" placeholder="Sua key aparecerá aqui..." readonly>
+        <button id="copyKeyBtn">📋 Copiar</button>
+      </div>
+
+      <a href="validate.html" class="link-btn">Validar Key</a>
+      <a href="login.html" class="link-btn">Login / Cadastro</a>
+    </div>
+
+    <footer>
+      <p>© MK5 System</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>
